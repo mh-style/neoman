@@ -1,0 +1,85 @@
+.customize-control-neoman-range-slider .range-title-area,
+.customize-control-neoman-range-slider .range-slider-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.customize-control-neoman-range-slider .neoman-reset {
+    width: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.customize-control-neoman-range-slider .neoman-range-slider {
+    position: relative;
+    width: calc(100% - 60px);
+    height: 6px;
+    background-color: rgba(0, 0, 0, .15);
+    cursor: pointer;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    transition: background .5s;
+}
+.customize-control-neoman-range-slider .has-unit .neoman-range-slider {
+    width: calc(100% - 90px);
+}
+.customize-control-neoman-range-slider .neoman-range-slider .ui-slider-handle {
+    height: 16px;
+    width: 16px;
+    background-color: #13a1dc;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-4px, -50%);
+    transform: translate(-4px, -50%);
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+.customize-control-neoman-range-slider .neoman-range-slider .ui-slider-range{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: #66aecc;
+}
+
+.customize-control-neoman-range-slider .neoman-range-value {
+    font-size: 14px;
+    padding: 0;
+    font-weight: 400;
+    width: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.customize-control-neoman-range-slider .has-unit .neoman-range-value {
+    width: 80px;
+}
+.customize-control-neoman-range-slider .neoman-range-value input{
+    font-size: 12px;
+    padding: 0;
+    text-align: center;
+    min-height: 30px;
+    height: auto;
+    border-radius: 0;
+    border-color: #ddd;
+    
+}
+.customize-control-neoman-range-slider .neoman-range-value .unit{
+    width: 30px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+}

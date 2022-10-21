@@ -1,0 +1,13 @@
+form .wpforms-one-half {
+   width: 48%;
+   float: left;
+}
+
+form .wpforms-one-half {
+   margin-left: 4%;
+   clear: none;
+}
+
+form .wpforms-one-half.wpforms-first {
+   margin-left: 0;
+}
